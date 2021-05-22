@@ -1,11 +1,15 @@
 body {
     background-color: LightGoldenRodYellow;
-    padding: 2em 1em 0;
+    padding: 1em 1em 0;
   }
   
   h1, h2, th, .credit {
     font-family: Georgia;
     text-align: center;
+  }
+
+  h1 {
+      padding-top: 2em;
   }
   
   h2 {
