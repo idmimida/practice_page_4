@@ -1,0 +1,61 @@
+body {
+    background-color: LightGoldenRodYellow;
+    padding: 0 1em 0;
+  }
+  
+  h1, h2, th, .credit {
+    font-family: Georgia;
+    text-align: center;
+  }
+  
+  h2 {
+    color: MidnightBlue;
+    padding-top: 1em;
+  }
+  
+  table {
+    border: 2px solid MidnightBlue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 50em;
+  }
+  
+  th {
+    background-color: LightSteelBlue;
+  }
+  
+  td {
+    border-top: 1px solid MidnightBlue;
+    font-family: Helvetica, sans-serif;
+    font-size: 90%;
+    min-width: 10em;
+    padding: 0.5em 0 0.5em;
+  }
+  
+  td.name {
+    background-color: LightGrey;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 90%;
+    min-width: 8em;
+    text-align: left;
+  }
+  
+  a:link {
+      color: MidnightBlue;
+    }
+
+  a:visited {
+      color:cornflowerblue;
+}
+  a:hover {
+    color:rosybrown;
+}
+  a:active {
+    color:yellowgreen;
+}
+  
+  .credit {
+    font-size: 70%;
+    font-style: italic;
+  }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pseudo-Cheatsheet</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<header>
+    <h1>Pseudo-Classes & Pseudo-Elements Reference</h1>
+</header>
+
+<body>
+    <!--Classes table Begins-->
+    <h2>Frequently Used <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">Pseudo-Classes</a></h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Instance</th>
+        </tr>
+        <tr>
+            <td class="name">:link</td>
+            <td>Represents an element that has not yet been visited.</td>
+            <td>a:link {color: red;}</td>
+        </tr>
+        <tr>
+            <td class="name">:visited</td>
+            <td>Represents links that the user has already visited.</td>
+            <td>a:hover {color: orange;}</td>
+        </tr>
+        <tr>
+            <td class="name">:hover</td>
+            <td>Matches when the user interacts with an element with a pointing device, but does not necessarily
+                activate it.</td>
+            <td>a:hover {color: orange;}</td>
+        </tr>
+        <tr>
+            <td class="name">:active</td>
+            <td>Represents an element (such as a button) that is being activated by the user.</td>
+            <td>a:active {color: red;}</td>
+        </tr>
+        <tr>
+            <td class="name">:focus</td>
+            <td>Represents an element (such as a form input) that has received focus.</td>
+            <td>input:focus {color: red;}</td>
+        </tr>
+    </table>
+    <!--Classes table Ends-->
+    <!--Elements table Begins-->
+    <h2>Frequently Used <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">Pseudo-Elements</a></h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Instance</th>
+        </tr>
+        <tr>
+            <td class="name">:first-letter </td>
+            <td>Applies styles to the first letter of the first line of a block-level element, but only when not
+                preceded by other content (such as images or inline tables).</td>
+            <td>p:first-letter {font-size: 130%;}</td>
+        </tr>
+        <tr>
+            <td class="name">:first-line</td>
+            <td>Applies styles to the first line of a block-level element</td>
+            <td>p:first-line {color: red;}</td>
+        </tr>
+    </table>
+    <!--Elements table Ends-->
+</body>
+<footer>
+    <p class="credit">created by mimida</p>
+</footer>
+
+</html>
