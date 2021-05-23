@@ -54,6 +54,12 @@ body {
   a:active {
     color:yellowgreen;
 }
+
+  tr:hover {
+    background-color:rgb(236, 207, 207);
+    color: black;
+    opacity: 0.9;
+}
   
   .credit {
     font-size: 70%;
